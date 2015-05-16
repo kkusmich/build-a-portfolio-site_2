@@ -1,0 +1,117 @@
+/*footer: adding social media icons*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/*adding background color to container*/
+.container {
+	background-color: #e0c19a;
+	width: 100%!important;
+}
+
+/*image adjustment*/
+img {
+	max-width: 100%;
+	margin: auto;
+}
+
+/*rounding logo and placement*/
+.logo {
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+/*layout adjustment*/
+.portfolio {
+	margin-bottom: 10px;
+}
+
+.portfolio-items {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.accent {
+	background-color: #bebebe;
+}
+
+/*font adjustment*/
+body {
+	font-family: 'Lato', sans-serif;
+	color: #1c437e;
+	font-weight: 300;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 56px;
+	text-transform: uppercase;
+}
+
+hr {
+	border-top: 2px solid #1c437e;
+}
+
+h2 {
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+h4 {
+	text-transform: uppercase;
+}
+
+/*adding two lines on each side of "Featured Work" heading*/
+.fancy span {
+	display: inline-block;
+	position: relative;
+}
+
+.fancy span:before, .fancy span:after {
+	content: "";
+	position: absolute;
+	height: 5px;
+	border-bottom: 1px solid #1c437e;
+	border-top: 1px solid #1c437e;
+	top: 0;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.fancy span:before {
+	margin-right: 15px;
+	right: 100%;
+}
+
+.fancy span:after {
+	margin-left: 15px;
+	left: 100%;
+}
+
+/*footer: adding social media icons and placement*/
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-flex;
+	float: right;
+}
+
+li {
+	padding: 5px;
+}
+
+/*footer: text-color*/
+footer {
+	color: #ffffff;
+}
